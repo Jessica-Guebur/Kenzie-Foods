@@ -1,0 +1,31 @@
+.banner__section{
+    background-image: url('../assets/imgs/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+    position:relative;
+}
+
+.banner__cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+    /* Position  */
+
+    position: absolute;
+    bottom: -1.875rem;
+}
+
+.banner__card{
+    background-color: var(--color-primary);
+    border:.125rem solid var(--color-gray-100);
+    width: 9.0625rem;
+    padding: 1.125rem 0.8125rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3906rem;
+}

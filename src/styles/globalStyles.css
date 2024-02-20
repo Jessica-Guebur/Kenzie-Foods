@@ -1,0 +1,28 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Inter:wght@100..900&display=swap');
+
+
+/* Estilos Globais */
+
+:root{
+    --font-family-primary: "Inter", sans-serif;
+
+    --color-primary: #ffc700;
+    --color-gray-100: #000;
+    --color-gray-500: #eee;
+    --color-gray-700: #fafafa;
+    --color-gray-900: #fff;
+
+}
+
+body{
+    font-family: var(--font-family-primary);
+    color: var(--color-gray-100);
+    background-color: var(--color-gray-900);
+}
+
+main section:not(:first-child){
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-inline: 0.5rem;
+}
